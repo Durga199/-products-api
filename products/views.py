@@ -4,7 +4,6 @@ from rest_framework.response import Response
 from django.http import HttpResponse,JsonResponse
 from .models import *
 from .serializer import *
-import pprint
 from django.core import serializers
 import json
 
